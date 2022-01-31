@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: podflask
+  labels:
+    app: motd
+spec:
+  containers:
+  - name: motd
+    image: mohamed20/motd-api
